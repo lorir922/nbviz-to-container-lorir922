@@ -1,0 +1,12 @@
+webapp:
+  name: #APP_NAME
+  group: #APP_NAME
+  path: #URL_PATH
+  tls:
+    fqdn: #FQDN
+    secretName: incommon-account-key-#APP_NAME
+  container: 
+    port: #CONTAINER_PORT
+    memory: 2G
+    cpu: 1
+    image: #IMAGE_NAME
